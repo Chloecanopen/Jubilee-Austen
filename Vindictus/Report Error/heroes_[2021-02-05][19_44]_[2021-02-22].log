@@ -1,0 +1,726 @@
+L 02/22/2021 - 19:20:09: ######################################################################################################
+L 02/22/2021 - 19:20:09: Log file started (version "8126")
+L 02/22/2021 - 19:20:10: ######################################################################################################
+L 02/22/2021 - 19:20:10: 
+L 02/22/2021 - 19:20:10: Shader_Connect
+L 02/22/2021 - 19:20:10: ConnectStudioRender
+L 02/22/2021 - 19:20:10: IDataCacheFactory
+L 02/22/2021 - 19:20:10: IPhysicsFactory
+L 02/22/2021 - 19:20:10: IMDLCacheFactory
+L 02/22/2021 - 19:20:10: IMatSystemSurfaceFactory
+L 02/22/2021 - 19:20:10: IAviFactory
+L 02/22/2021 - 19:20:10: IHammerFactory
+L 02/22/2021 - 19:20:10: ConnectMDLCacheNotify
+L 02/22/2021 - 19:20:11: EngineInit
+L 02/22/2021 - 19:20:11: RunListenServer
+L 02/22/2021 - 19:20:12: TraceInit : COM_InitFilesystem( pModName )
+L 02/22/2021 - 19:20:12: TraceInit : MapReslistGenerator_Init()
+L 02/22/2021 - 19:20:12: TraceInit : DevShotGenerator_Init()
+L 02/22/2021 - 19:20:13: materials->ModInit
+L 02/22/2021 - 19:20:13: Host_ReadPreStartupConfiguration
+L 02/22/2021 - 19:20:13: NMCOGame::_nmman.Init()
+L 02/22/2021 - 19:20:14: NMCOGame::_nmman.SetLocaleAndRegion()
+L 02/22/2021 - 19:20:14: NMCOGame::_nmman.Initialize()
+L 02/22/2021 - 19:20:15: NXA::heroesLiveAPI.Initialize()
+L 02/22/2021 - 19:20:15: nmcoGame->Init()
+L 02/22/2021 - 19:20:15: endPointNetwork->Init()
+L 02/22/2021 - 19:20:15: mmoEndPointNetwork->Init()
+L 02/22/2021 - 19:20:15: AppSystem::RegisterHandler<ServerCmdMessage>
+L 02/22/2021 - 19:20:15: AppSystem::RegisterHandler<ClientCmdHandler>
+L 02/22/2021 - 19:20:15: AppSystem::RegisterHandler<SyncFeatureMatrixMessageHandler>
+L 02/22/2021 - 19:20:15: AppSystem::RegisterHandler<NGSecurityMessageHandler>
+L 02/22/2021 - 19:20:16: AppSystem::g_splash.CloseSplash
+L 02/22/2021 - 19:20:16: AppSystem::SetActiveWindow
+L 02/22/2021 - 19:20:16: AppSystem::SetFocus
+L 02/22/2021 - 19:20:16: heroes->Init
+L 02/22/2021 - 19:20:16: CreateGameWindow::ResetCurrentModeForNewResolution
+L 02/22/2021 - 19:20:16: CreateGameWindow::AdjustWindow
+L 02/22/2021 - 19:20:16: PlayStartupVideos::COM_LoadFile
+L 02/22/2021 - 19:20:18: PlayAVIAndWait::mciSendString - open "c:\program files (x86)\steam\steamapps\common\vindictus\en-us\media\logo.avi" type AVIVideo alias video parent 722114 style child wait
+L 02/22/2021 - 19:20:18: PlayAVIAndWait::mciSendString - window video handle 722114 state restore wait
+L 02/22/2021 - 19:20:18: PlayAVIAndWait::mciSendString - put video destination at 0 0 1920 1080 wait
+L 02/22/2021 - 19:20:18: PlayAVIAndWait::mciSendString - seek video to start wait
+L 02/22/2021 - 19:20:18: PlayAVIAndWait::mciSendString - play video
+L 02/22/2021 - 19:20:26: PlayAVIAndWait::Finished
+L 02/22/2021 - 19:20:26: PlayStartupVideos::PlayAVIAndWait Finished
+L 02/22/2021 - 19:20:26: DrawStartupGraphic::PlayStartupVideos
+L 02/22/2021 - 19:20:26: DrawStartupGraphic::SetupStartupGraphic
+L 02/22/2021 - 19:20:26: CreateGameWindow::DrawStartupGraphic
+L 02/22/2021 - 19:20:29: CreateGameWindow::SetMode
+L 02/22/2021 - 19:20:29: videomode->CreateGameWindow
+L 02/22/2021 - 19:20:29: nmcoGame->RegisterCallbackMessage
+L 02/22/2021 - 19:20:30: EngineCreateL 02/22/2021 - 19:20:30: EnginePreInit
+L 02/22/2021 - 19:20:30: TraceInit : Sys_Init()
+L 02/22/2021 - 19:20:30: TraceInit : Sys_InitMemory()
+L 02/22/2021 - 19:20:30: TraceInit : Host_Init( g_bIsDedicated, bIsUserDedicated )
+L 02/22/2021 - 19:20:30: TraceInit : Memory_Init()
+L 02/22/2021 - 19:20:30: TraceInit : Con_Init()
+L 02/22/2021 - 19:20:30: TraceInit : Cbuf_Init()
+L 02/22/2021 - 19:20:30: TraceInit : Cmd_Init()
+L 02/22/2021 - 19:20:30: TraceInit : cv->Init()
+L 02/22/2021 - 19:20:30: TraceInit : V_Init()
+L 02/22/2021 - 19:20:30: TraceInit : COM_Init()
+L 02/22/2021 - 19:20:31: TraceInit : saverestore->Init()
+L 02/22/2021 - 19:20:31: TraceInit : Filter_Init()
+L 02/22/2021 - 19:20:31: TraceInit : Key_Init()
+L 02/22/2021 - 19:20:31: TraceInit : NET_Init( bDedicated )
+L 02/22/2021 - 19:20:31: TraceInit : g_GameEventManager.Init()
+L 02/22/2021 - 19:20:31: TraceInit : sv.Init( bDedicated, bUserDedicated )
+L 02/22/2021 - 19:20:32: TraceInit : HLTV_Init()
+L 02/22/2021 - 19:20:32: TraceInit : CL_Init()
+L 02/22/2021 - 19:20:32: TraceInit : InitMaterialSystem()
+L 02/22/2021 - 19:20:32: ReleaseResources
+L 02/22/2021 - 19:20:32: ReacquireResources
+L 02/22/2021 - 19:20:32: TraceInit : modelloader->Init()
+L 02/22/2021 - 19:20:33: TraceInit : StaticPropMgr()->Init()
+L 02/22/2021 - 19:20:33: TraceInit : InitStudioRender()
+L 02/22/2021 - 19:20:33: TraceInit : EngineVGui()->Init()
+L 02/22/2021 - 19:20:50: TraceInit : TextMessageInit()
+L 02/22/2021 - 19:20:50: TraceInit : ClientDLL_Init()
+L 02/22/2021 - 19:20:55: ReleaseResources
+L 02/22/2021 - 19:20:55: ReacquireResources
+L 02/22/2021 - 19:20:56: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 19:20:56: TraceInit : Draw_Init()
+L 02/22/2021 - 19:20:56: TraceInit : SCR_Init()
+L 02/22/2021 - 19:20:56: TraceInit : R_Init()
+L 02/22/2021 - 19:20:56: TraceInit : Decal_Init()
+L 02/22/2021 - 19:20:56: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 19:20:56: TraceInit : S_Init()
+L 02/22/2021 - 19:20:56: TraceInit : VOX_Init()
+L 02/22/2021 - 19:20:57: TraceInit : audiosourcecache->Init( MAXIMUM_SOUND_CACHE_SIZE )
+L 02/22/2021 - 19:20:58: ReleaseResources
+L 02/22/2021 - 19:20:59: ReacquireResources
+L 02/22/2021 - 19:20:59: TraceInit : Sys_InitAuthentication()
+L 02/22/2021 - 19:21:00: ============================================================================
+L 02/22/2021 - 19:21:00: Loading map "start_2020_kael"
+L 02/22/2021 - 19:21:00: Remain RefModels Count 0
+L 02/22/2021 - 19:21:00: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:21:08: Map_LoadModel - maps/start_2020_kael.bsp
+L 02/22/2021 - 19:21:52: Remain RefModels Count 3
+L 02/22/2021 - 19:21:52: World triggered "Round_Start"
+L 02/22/2021 - 19:21:52: "unnamed<2><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 19:22:04: "unnamed<2><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:22:05: "unnamed<2><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:22:07: Remain RefModels Count 4
+L 02/22/2021 - 19:22:21: LoginMessenger Enabled, server=1 messenger=1
+L 02/22/2021 - 19:22:31: "unnamed<2><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 19:22:31: Dropped unnamed from server (Disconnect by user.)
+L 02/22/2021 - 19:22:32: Server shutdown.
+L 02/22/2021 - 19:22:32: ============================================================================
+L 02/22/2021 - 19:22:32: Loading map "lobby_beautyshop_change"
+L 02/22/2021 - 19:22:33: Remain RefModels Count 0
+L 02/22/2021 - 19:22:33: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:22:33: Map_LoadModel - maps/lobby_beautyshop_change.bsp
+L 02/22/2021 - 19:23:07: Remain RefModels Count 17
+L 02/22/2021 - 19:23:08: World triggered "Round_Start"
+L 02/22/2021 - 19:23:08: "<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 19:23:11: "<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:23:11: "<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:23:13: Remain RefModels Count 18
+L 02/22/2021 - 19:26:08: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 19:26:09: "<1><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 19:26:09: Dropped  from server (Disconnect by user.)
+L 02/22/2021 - 19:26:09: Server shutdown.
+L 02/22/2021 - 19:26:09: ============================================================================
+L 02/22/2021 - 19:26:09: Loading map "lobby_beautyshop_body"
+L 02/22/2021 - 19:26:09: Remain RefModels Count 0
+L 02/22/2021 - 19:26:09: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:26:09: Map_LoadModel - maps/lobby_beautyshop_body.bsp
+L 02/22/2021 - 19:26:12: Remain RefModels Count 0
+L 02/22/2021 - 19:26:12: World triggered "Round_Start"
+L 02/22/2021 - 19:26:12: "<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 19:26:14: "<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:26:16: "<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:26:17: Remain RefModels Count 1
+L 02/22/2021 - 19:31:31: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 19:31:51: "<1><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 19:31:51: Dropped  from server (Disconnect by user.)
+L 02/22/2021 - 19:31:52: Server shutdown.
+L 02/22/2021 - 19:31:52: ============================================================================
+L 02/22/2021 - 19:31:52: Loading map "tutorial"
+L 02/22/2021 - 19:31:52: Remain RefModels Count 0
+L 02/22/2021 - 19:31:52: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:31:54: Map_LoadModel - maps/tutorial.bsp
+L 02/22/2021 - 19:32:07: Remain RefModels Count 0
+L 02/22/2021 - 19:32:08: World triggered "Round_Start"
+L 02/22/2021 - 19:32:08: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 19:32:22: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:32:23: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:32:25: Remain RefModels Count 1
+L 02/22/2021 - 19:40:14: TraceInit : VOX_Init()
+L 02/22/2021 - 19:40:14: TraceInit : audiosourcecache->Init( MAXIMUM_SOUND_CACHE_SIZE )
+L 02/22/2021 - 19:40:15: "Dipkiss<1><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 19:40:15: Dropped Dipkiss from server (Disconnect by user.)
+L 02/22/2021 - 19:40:15: Server shutdown.
+L 02/22/2021 - 19:40:15: ============================================================================
+L 02/22/2021 - 19:40:15: Loading map "create_character"
+L 02/22/2021 - 19:40:16: Remain RefModels Count 0
+L 02/22/2021 - 19:40:16: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:40:16: Map_LoadModel - maps/create_character.bsp
+L 02/22/2021 - 19:40:20: Remain RefModels Count 0
+L 02/22/2021 - 19:40:20: World triggered "Round_Start"
+L 02/22/2021 - 19:40:20: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 19:40:23: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:40:24: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:40:25: Remain RefModels Count 1
+L 02/22/2021 - 19:40:50: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 19:40:51: "Dipkiss<1><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 19:40:51: Dropped Dipkiss from server (Disconnect by user.)
+L 02/22/2021 - 19:40:52: Server shutdown.
+L 02/22/2021 - 19:40:52: ============================================================================
+L 02/22/2021 - 19:40:52: Loading map "t01"
+L 02/22/2021 - 19:40:52: Remain RefModels Count 0
+L 02/22/2021 - 19:40:52: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:40:55: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 19:41:10: Remain RefModels Count 2
+L 02/22/2021 - 19:41:10: World triggered "Round_Start"
+L 02/22/2021 - 19:41:10: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 19:41:37: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:41:37: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:41:40: Remain RefModels Count 20
+L 02/22/2021 - 19:43:26: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 19:43:26: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 19:43:26: Server shutdown.
+L 02/22/2021 - 19:43:26: ============================================================================
+L 02/22/2021 - 19:43:26: Loading map "01a_new"
+L 02/22/2021 - 19:43:26: Remain RefModels Count 0
+L 02/22/2021 - 19:43:26: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:43:28: Map_LoadModel - maps/01a_new.bsp
+L 02/22/2021 - 19:43:32: Remain RefModels Count 0
+L 02/22/2021 - 19:43:32: World triggered "Round_Start"
+L 02/22/2021 - 19:43:32: "Dipkiss<1><UNKNOWN><>" connected, address "120566"
+L 02/22/2021 - 19:43:44: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:43:45: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:43:46: Remain RefModels Count 1
+L 02/22/2021 - 19:48:40: scaleform_hide_baseui called.
+L 02/22/2021 - 19:49:14: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 19:49:14: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 19:49:14: Server shutdown.
+L 02/22/2021 - 19:49:14: ============================================================================
+L 02/22/2021 - 19:49:14: Loading map "t01"
+L 02/22/2021 - 19:49:14: Remain RefModels Count 0
+L 02/22/2021 - 19:49:14: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:49:17: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 19:49:25: Remain RefModels Count 2
+L 02/22/2021 - 19:49:25: World triggered "Round_Start"
+L 02/22/2021 - 19:49:25: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 19:49:29: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:49:29: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:49:34: Remain RefModels Count 26
+L 02/22/2021 - 19:53:24: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 19:53:24: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 19:53:24: Server shutdown.
+L 02/22/2021 - 19:53:25: ============================================================================
+L 02/22/2021 - 19:53:25: Loading map "01b_new"
+L 02/22/2021 - 19:53:25: Remain RefModels Count 0
+L 02/22/2021 - 19:53:25: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:53:26: Map_LoadModel - maps/01b_new.bsp
+L 02/22/2021 - 19:53:31: Remain RefModels Count 0
+L 02/22/2021 - 19:53:32: World triggered "Round_Start"
+L 02/22/2021 - 19:53:32: "Dipkiss<1><UNKNOWN><>" connected, address "120025"
+L 02/22/2021 - 19:53:42: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:53:44: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:53:44: Remain RefModels Count 1
+L 02/22/2021 - 19:57:01: ============================================================================
+L 02/22/2021 - 19:57:01: Loading map "01c_new"
+L 02/22/2021 - 19:57:01: Remain RefModels Count 1
+L 02/22/2021 - 19:57:02: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 19:57:02: Map_LoadModel - maps/01c_new.bsp
+L 02/22/2021 - 19:57:04: World triggered "Round_Start"
+L 02/22/2021 - 19:57:07: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 19:57:08: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 19:57:16: Remain RefModels Count 1
+L 02/22/2021 - 20:01:37: scaleform_hide_baseui called.
+L 02/22/2021 - 20:02:36: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 20:02:36: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 20:02:36: Server shutdown.
+L 02/22/2021 - 20:02:36: ============================================================================
+L 02/22/2021 - 20:02:36: Loading map "t01"
+L 02/22/2021 - 20:02:36: Remain RefModels Count 0
+L 02/22/2021 - 20:02:36: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:02:38: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 20:02:47: Remain RefModels Count 2
+L 02/22/2021 - 20:02:47: World triggered "Round_Start"
+L 02/22/2021 - 20:02:47: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 20:02:50: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:02:51: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:02:55: Remain RefModels Count 26
+L 02/22/2021 - 20:12:40: VidTexMem: -2048.000
+L 02/22/2021 - 20:12:40: MaxUsedTexMem: 475.514
+L 02/22/2021 - 20:12:40: CurUsedTexMem: 374.096
+L 02/22/2021 - 20:12:40: FrameUsedTexMem: 100.511
+L 02/22/2021 - 20:12:40: Summary: 1911 resources total 362.76 MB / 471.86 MB, 76.88 of capacity
+L 02/22/2021 - 20:12:40: Section [ModelData]: 918 resources total 271.24 MB, 57.48 of limit (471.86 MB)
+L 02/22/2021 - 20:12:40: Section [ModelMesh]: 678 resources total 57.90 MB, 86.28 of limit (67.11 MB)
+L 02/22/2021 - 20:12:40: Section [Scenes]: 12 resources total 84.92 KB, 4.05 of limit (2.10 MB)
+L 02/22/2021 - 20:12:40: Section [ColorMesh]: 60 resources total 78.65 KB, 0.12 of limit (67.11 MB)
+L 02/22/2021 - 20:12:41: Section [Captions]: 1 resources total 4.12 KB, 25.15 of limit (16.38 KB)
+L 02/22/2021 - 20:12:41: Section [WaveData]: 242 resources total 33.54 MB, 99.94 of limit (33.55 MB)
+L 02/22/2021 - 20:13:36: ######################################################################################################
+L 02/22/2021 - 20:13:36: Log file started (version "8126")
+L 02/22/2021 - 20:13:36: ######################################################################################################
+L 02/22/2021 - 20:13:36: 
+L 02/22/2021 - 20:13:36: Shader_Connect
+L 02/22/2021 - 20:13:36: ConnectStudioRender
+L 02/22/2021 - 20:13:37: IDataCacheFactory
+L 02/22/2021 - 20:13:37: IPhysicsFactory
+L 02/22/2021 - 20:13:37: IMDLCacheFactory
+L 02/22/2021 - 20:13:37: IMatSystemSurfaceFactory
+L 02/22/2021 - 20:13:37: IAviFactory
+L 02/22/2021 - 20:13:37: IHammerFactory
+L 02/22/2021 - 20:13:37: ConnectMDLCacheNotify
+L 02/22/2021 - 20:13:38: EngineInit
+L 02/22/2021 - 20:13:38: RunListenServer
+L 02/22/2021 - 20:13:38: TraceInit : COM_InitFilesystem( pModName )
+L 02/22/2021 - 20:13:38: TraceInit : MapReslistGenerator_Init()
+L 02/22/2021 - 20:13:38: TraceInit : DevShotGenerator_Init()
+L 02/22/2021 - 20:13:39: materials->ModInit
+L 02/22/2021 - 20:13:39: Host_ReadPreStartupConfiguration
+L 02/22/2021 - 20:13:39: NMCOGame::_nmman.Init()
+L 02/22/2021 - 20:13:39: NMCOGame::_nmman.SetLocaleAndRegion()
+L 02/22/2021 - 20:13:39: NMCOGame::_nmman.Initialize()
+L 02/22/2021 - 20:13:39: NXA::heroesLiveAPI.Initialize()
+L 02/22/2021 - 20:13:39: nmcoGame->Init()
+L 02/22/2021 - 20:13:39: endPointNetwork->Init()
+L 02/22/2021 - 20:13:39: mmoEndPointNetwork->Init()
+L 02/22/2021 - 20:13:40: AppSystem::RegisterHandler<ServerCmdMessage>
+L 02/22/2021 - 20:13:40: AppSystem::RegisterHandler<ClientCmdHandler>
+L 02/22/2021 - 20:13:40: AppSystem::RegisterHandler<SyncFeatureMatrixMessageHandler>
+L 02/22/2021 - 20:13:40: AppSystem::RegisterHandler<NGSecurityMessageHandler>
+L 02/22/2021 - 20:13:40: AppSystem::g_splash.CloseSplash
+L 02/22/2021 - 20:13:40: AppSystem::SetActiveWindow
+L 02/22/2021 - 20:13:40: AppSystem::SetFocus
+L 02/22/2021 - 20:13:40: heroes->Init
+L 02/22/2021 - 20:13:40: CreateGameWindow::ResetCurrentModeForNewResolution
+L 02/22/2021 - 20:13:40: CreateGameWindow::AdjustWindow
+L 02/22/2021 - 20:13:40: PlayStartupVideos::COM_LoadFile
+L 02/22/2021 - 20:13:41: PlayAVIAndWait::mciSendString - open "c:\program files (x86)\steam\steamapps\common\vindictus\en-us\media\logo.avi" type AVIVideo alias video parent 527012 style child wait
+L 02/22/2021 - 20:13:41: PlayAVIAndWait::mciSendString - window video handle 527012 state restore wait
+L 02/22/2021 - 20:13:41: PlayAVIAndWait::mciSendString - put video destination at 0 0 1920 1080 wait
+L 02/22/2021 - 20:13:41: PlayAVIAndWait::mciSendString - seek video to start wait
+L 02/22/2021 - 20:13:41: PlayAVIAndWait::mciSendString - play video
+L 02/22/2021 - 20:13:49: PlayAVIAndWait::Finished
+L 02/22/2021 - 20:13:50: PlayStartupVideos::PlayAVIAndWait Finished
+L 02/22/2021 - 20:13:50: DrawStartupGraphic::PlayStartupVideos
+L 02/22/2021 - 20:13:50: DrawStartupGraphic::SetupStartupGraphic
+L 02/22/2021 - 20:13:50: CreateGameWindow::DrawStartupGraphic
+L 02/22/2021 - 20:13:52: CreateGameWindow::SetMode
+L 02/22/2021 - 20:13:52: videomode->CreateGameWindow
+L 02/22/2021 - 20:13:52: nmcoGame->RegisterCallbackMessage
+L 02/22/2021 - 20:13:52: EngineCreateL 02/22/2021 - 20:13:52: EnginePreInit
+L 02/22/2021 - 20:13:52: TraceInit : Sys_Init()
+L 02/22/2021 - 20:13:52: TraceInit : Sys_InitMemory()
+L 02/22/2021 - 20:13:52: TraceInit : Host_Init( g_bIsDedicated, bIsUserDedicated )
+L 02/22/2021 - 20:13:53: TraceInit : Memory_Init()
+L 02/22/2021 - 20:13:53: TraceInit : Con_Init()
+L 02/22/2021 - 20:13:53: TraceInit : Cbuf_Init()
+L 02/22/2021 - 20:13:53: TraceInit : Cmd_Init()
+L 02/22/2021 - 20:13:53: TraceInit : cv->Init()
+L 02/22/2021 - 20:13:53: TraceInit : V_Init()
+L 02/22/2021 - 20:13:53: TraceInit : COM_Init()
+L 02/22/2021 - 20:13:53: TraceInit : saverestore->Init()
+L 02/22/2021 - 20:13:53: TraceInit : Filter_Init()
+L 02/22/2021 - 20:13:53: TraceInit : Key_Init()
+L 02/22/2021 - 20:13:53: TraceInit : NET_Init( bDedicated )
+L 02/22/2021 - 20:13:53: TraceInit : g_GameEventManager.Init()
+L 02/22/2021 - 20:13:53: TraceInit : sv.Init( bDedicated, bUserDedicated )
+L 02/22/2021 - 20:13:54: TraceInit : HLTV_Init()
+L 02/22/2021 - 20:13:54: TraceInit : CL_Init()
+L 02/22/2021 - 20:13:54: TraceInit : InitMaterialSystem()
+L 02/22/2021 - 20:13:54: ReleaseResources
+L 02/22/2021 - 20:13:54: ReacquireResources
+L 02/22/2021 - 20:13:55: TraceInit : modelloader->Init()
+L 02/22/2021 - 20:13:55: TraceInit : StaticPropMgr()->Init()
+L 02/22/2021 - 20:13:55: TraceInit : InitStudioRender()
+L 02/22/2021 - 20:13:55: TraceInit : EngineVGui()->Init()
+L 02/22/2021 - 20:14:10: TraceInit : TextMessageInit()
+L 02/22/2021 - 20:14:10: TraceInit : ClientDLL_Init()
+L 02/22/2021 - 20:14:14: ReleaseResources
+L 02/22/2021 - 20:14:14: ReacquireResources
+L 02/22/2021 - 20:14:14: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:14:14: TraceInit : Draw_Init()
+L 02/22/2021 - 20:14:14: TraceInit : SCR_Init()
+L 02/22/2021 - 20:14:15: TraceInit : R_Init()
+L 02/22/2021 - 20:14:15: TraceInit : Decal_Init()
+L 02/22/2021 - 20:14:15: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:14:15: TraceInit : S_Init()
+L 02/22/2021 - 20:14:15: TraceInit : VOX_Init()
+L 02/22/2021 - 20:14:15: TraceInit : audiosourcecache->Init( MAXIMUM_SOUND_CACHE_SIZE )
+L 02/22/2021 - 20:14:16: ReleaseResources
+L 02/22/2021 - 20:14:16: ReacquireResources
+L 02/22/2021 - 20:14:16: TraceInit : Sys_InitAuthentication()
+L 02/22/2021 - 20:14:16: ============================================================================
+L 02/22/2021 - 20:14:16: Loading map "miri_start"
+L 02/22/2021 - 20:14:17: Remain RefModels Count 0
+L 02/22/2021 - 20:14:17: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:14:21: Map_LoadModel - maps/miri_start.bsp
+L 02/22/2021 - 20:14:47: Remain RefModels Count 2
+L 02/22/2021 - 20:14:47: World triggered "Round_Start"
+L 02/22/2021 - 20:14:47: "unnamed<2><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 20:14:53: "unnamed<2><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:14:54: "unnamed<2><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:14:55: Remain RefModels Count 3
+L 02/22/2021 - 20:15:15: LoginMessenger Enabled, server=1 messenger=1
+L 02/22/2021 - 20:15:39: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:15:40: "unnamed<2><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 20:15:40: Dropped unnamed from server (Disconnect by user.)
+L 02/22/2021 - 20:15:43: Server shutdown.
+L 02/22/2021 - 20:15:43: ============================================================================
+L 02/22/2021 - 20:15:43: Loading map "t01"
+L 02/22/2021 - 20:15:43: Remain RefModels Count 0
+L 02/22/2021 - 20:15:43: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:15:46: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 20:15:59: Remain RefModels Count 2
+L 02/22/2021 - 20:15:59: World triggered "Round_Start"
+L 02/22/2021 - 20:16:00: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 20:16:04: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:16:05: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:16:10: Remain RefModels Count 26
+L 02/22/2021 - 20:21:42: scaleform_hide_baseui called.
+L 02/22/2021 - 20:21:45: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:22:03: scaleform_hide_baseui called.
+L 02/22/2021 - 20:22:38: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:23:18: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:23:24: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 20:23:24: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 20:23:24: Server shutdown.
+L 02/22/2021 - 20:32:39: ######################################################################################################
+L 02/22/2021 - 20:32:39: Log file started (version "8126")
+L 02/22/2021 - 20:32:39: ######################################################################################################
+L 02/22/2021 - 20:32:39: 
+L 02/22/2021 - 20:32:39: Shader_Connect
+L 02/22/2021 - 20:32:39: ConnectStudioRender
+L 02/22/2021 - 20:32:39: IDataCacheFactory
+L 02/22/2021 - 20:32:39: IPhysicsFactory
+L 02/22/2021 - 20:32:40: IMDLCacheFactory
+L 02/22/2021 - 20:32:40: IMatSystemSurfaceFactory
+L 02/22/2021 - 20:32:40: IAviFactory
+L 02/22/2021 - 20:32:40: IHammerFactory
+L 02/22/2021 - 20:32:40: ConnectMDLCacheNotify
+L 02/22/2021 - 20:32:41: EngineInit
+L 02/22/2021 - 20:32:41: RunListenServer
+L 02/22/2021 - 20:32:41: TraceInit : COM_InitFilesystem( pModName )
+L 02/22/2021 - 20:32:42: TraceInit : MapReslistGenerator_Init()
+L 02/22/2021 - 20:32:42: TraceInit : DevShotGenerator_Init()
+L 02/22/2021 - 20:32:42: materials->ModInit
+L 02/22/2021 - 20:32:42: Host_ReadPreStartupConfiguration
+L 02/22/2021 - 20:32:42: NMCOGame::_nmman.Init()
+L 02/22/2021 - 20:32:43: NMCOGame::_nmman.SetLocaleAndRegion()
+L 02/22/2021 - 20:32:43: NMCOGame::_nmman.Initialize()
+L 02/22/2021 - 20:32:43: NXA::heroesLiveAPI.Initialize()
+L 02/22/2021 - 20:32:43: nmcoGame->Init()
+L 02/22/2021 - 20:32:43: endPointNetwork->Init()
+L 02/22/2021 - 20:32:43: mmoEndPointNetwork->Init()
+L 02/22/2021 - 20:32:43: AppSystem::RegisterHandler<ServerCmdMessage>
+L 02/22/2021 - 20:32:43: AppSystem::RegisterHandler<ClientCmdHandler>
+L 02/22/2021 - 20:32:44: AppSystem::RegisterHandler<SyncFeatureMatrixMessageHandler>
+L 02/22/2021 - 20:32:44: AppSystem::RegisterHandler<NGSecurityMessageHandler>
+L 02/22/2021 - 20:32:44: AppSystem::g_splash.CloseSplash
+L 02/22/2021 - 20:32:44: AppSystem::SetActiveWindow
+L 02/22/2021 - 20:32:44: AppSystem::SetFocus
+L 02/22/2021 - 20:32:44: heroes->Init
+L 02/22/2021 - 20:32:44: CreateGameWindow::ResetCurrentModeForNewResolution
+L 02/22/2021 - 20:32:44: CreateGameWindow::AdjustWindow
+L 02/22/2021 - 20:32:44: PlayStartupVideos::COM_LoadFile
+L 02/22/2021 - 20:32:44: PlayAVIAndWait::mciSendString - open "c:\program files (x86)\steam\steamapps\common\vindictus\en-us\media\logo.avi" type AVIVideo alias video parent 394230 style child wait
+L 02/22/2021 - 20:32:44: PlayAVIAndWait::mciSendString - window video handle 394230 state restore wait
+L 02/22/2021 - 20:32:44: PlayAVIAndWait::mciSendString - put video destination at 0 0 1920 1080 wait
+L 02/22/2021 - 20:32:44: PlayAVIAndWait::mciSendString - seek video to start wait
+L 02/22/2021 - 20:32:44: PlayAVIAndWait::mciSendString - play video
+L 02/22/2021 - 20:32:53: PlayAVIAndWait::Finished
+L 02/22/2021 - 20:32:53: PlayStartupVideos::PlayAVIAndWait Finished
+L 02/22/2021 - 20:32:53: DrawStartupGraphic::PlayStartupVideos
+L 02/22/2021 - 20:32:53: DrawStartupGraphic::SetupStartupGraphic
+L 02/22/2021 - 20:32:53: CreateGameWindow::DrawStartupGraphic
+L 02/22/2021 - 20:32:55: CreateGameWindow::SetMode
+L 02/22/2021 - 20:32:55: videomode->CreateGameWindow
+L 02/22/2021 - 20:32:55: nmcoGame->RegisterCallbackMessage
+L 02/22/2021 - 20:32:55: EngineCreateL 02/22/2021 - 20:32:55: EnginePreInit
+L 02/22/2021 - 20:32:55: TraceInit : Sys_Init()
+L 02/22/2021 - 20:32:55: TraceInit : Sys_InitMemory()
+L 02/22/2021 - 20:32:55: TraceInit : Host_Init( g_bIsDedicated, bIsUserDedicated )
+L 02/22/2021 - 20:32:55: TraceInit : Memory_Init()
+L 02/22/2021 - 20:32:55: TraceInit : Con_Init()
+L 02/22/2021 - 20:32:55: TraceInit : Cbuf_Init()
+L 02/22/2021 - 20:32:55: TraceInit : Cmd_Init()
+L 02/22/2021 - 20:32:55: TraceInit : cv->Init()
+L 02/22/2021 - 20:32:56: TraceInit : V_Init()
+L 02/22/2021 - 20:32:56: TraceInit : COM_Init()
+L 02/22/2021 - 20:32:56: TraceInit : saverestore->Init()
+L 02/22/2021 - 20:32:56: TraceInit : Filter_Init()
+L 02/22/2021 - 20:32:56: TraceInit : Key_Init()
+L 02/22/2021 - 20:32:56: TraceInit : NET_Init( bDedicated )
+L 02/22/2021 - 20:32:56: TraceInit : g_GameEventManager.Init()
+L 02/22/2021 - 20:32:56: TraceInit : sv.Init( bDedicated, bUserDedicated )
+L 02/22/2021 - 20:32:57: TraceInit : HLTV_Init()
+L 02/22/2021 - 20:32:57: TraceInit : CL_Init()
+L 02/22/2021 - 20:32:57: TraceInit : InitMaterialSystem()
+L 02/22/2021 - 20:32:57: ReleaseResources
+L 02/22/2021 - 20:32:57: ReacquireResources
+L 02/22/2021 - 20:32:57: TraceInit : modelloader->Init()
+L 02/22/2021 - 20:32:57: TraceInit : StaticPropMgr()->Init()
+L 02/22/2021 - 20:32:57: TraceInit : InitStudioRender()
+L 02/22/2021 - 20:32:57: TraceInit : EngineVGui()->Init()
+L 02/22/2021 - 20:33:11: TraceInit : TextMessageInit()
+L 02/22/2021 - 20:33:11: TraceInit : ClientDLL_Init()
+L 02/22/2021 - 20:33:16: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:33:16: TraceInit : Draw_Init()
+L 02/22/2021 - 20:33:16: TraceInit : SCR_Init()
+L 02/22/2021 - 20:33:16: TraceInit : R_Init()
+L 02/22/2021 - 20:33:16: TraceInit : Decal_Init()
+L 02/22/2021 - 20:33:16: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:33:16: TraceInit : S_Init()
+L 02/22/2021 - 20:33:16: TraceInit : VOX_Init()
+L 02/22/2021 - 20:33:17: TraceInit : audiosourcecache->Init( MAXIMUM_SOUND_CACHE_SIZE )
+L 02/22/2021 - 20:33:17: TraceInit : Sys_InitAuthentication()
+L 02/22/2021 - 20:33:18: ============================================================================
+L 02/22/2021 - 20:33:18: Loading map "start_2018_grimden"
+L 02/22/2021 - 20:33:18: Remain RefModels Count 0
+L 02/22/2021 - 20:33:18: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:33:19: Map_LoadModel - maps/start_2018_grimden.bsp
+L 02/22/2021 - 20:33:46: Remain RefModels Count 2
+L 02/22/2021 - 20:33:46: World triggered "Round_Start"
+L 02/22/2021 - 20:33:46: "unnamed<2><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 20:33:51: "unnamed<2><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:33:51: "unnamed<2><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:33:53: Remain RefModels Count 3
+L 02/22/2021 - 20:34:12: LoginMessenger Enabled, server=1 messenger=1
+L 02/22/2021 - 20:34:43: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:34:45: "unnamed<2><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 20:34:45: Dropped unnamed from server (Disconnect by user.)
+L 02/22/2021 - 20:34:45: Server shutdown.
+L 02/22/2021 - 20:34:45: ============================================================================
+L 02/22/2021 - 20:34:45: Loading map "t01"
+L 02/22/2021 - 20:34:45: Remain RefModels Count 0
+L 02/22/2021 - 20:34:45: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:34:47: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 20:34:58: Remain RefModels Count 2
+L 02/22/2021 - 20:34:58: World triggered "Round_Start"
+L 02/22/2021 - 20:34:58: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 20:35:04: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:35:04: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:35:09: Remain RefModels Count 26
+L 02/22/2021 - 20:35:39: scaleform_hide_baseui called.
+L 02/22/2021 - 20:36:14: ApplyMultiCoreSettings() - Option: 1
+L 02/22/2021 - 20:36:50: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 20:36:50: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 20:36:50: Server shutdown.
+L 02/22/2021 - 20:36:50: ============================================================================
+L 02/22/2021 - 20:36:51: Loading map "01d_new"
+L 02/22/2021 - 20:36:51: Remain RefModels Count 0
+L 02/22/2021 - 20:36:51: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:36:52: Map_LoadModel - maps/01d_new.bsp
+L 02/22/2021 - 20:36:57: Remain RefModels Count 0
+L 02/22/2021 - 20:36:57: World triggered "Round_Start"
+L 02/22/2021 - 20:36:57: "Dipkiss<1><UNKNOWN><>" connected, address "121292"
+L 02/22/2021 - 20:37:09: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:37:10: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:37:11: Remain RefModels Count 1
+L 02/22/2021 - 20:39:26: ============================================================================
+L 02/22/2021 - 20:39:26: Loading map "01e_new"
+L 02/22/2021 - 20:39:26: Remain RefModels Count 1
+L 02/22/2021 - 20:39:26: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:39:27: Map_LoadModel - maps/01e_new.bsp
+L 02/22/2021 - 20:39:28: World triggered "Round_Start"
+L 02/22/2021 - 20:39:30: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:39:31: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:39:37: Remain RefModels Count 1
+L 02/22/2021 - 20:41:47: scaleform_hide_baseui called.
+L 02/22/2021 - 20:42:48: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 20:42:48: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 20:42:48: Server shutdown.
+L 02/22/2021 - 20:44:12: ============================================================================
+L 02/22/2021 - 20:44:12: Loading map "01f_new"
+L 02/22/2021 - 20:44:12: Remain RefModels Count 0
+L 02/22/2021 - 20:44:12: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:44:13: Map_LoadModel - maps/01f_new.bsp
+L 02/22/2021 - 20:44:15: Remain RefModels Count 0
+L 02/22/2021 - 20:44:15: World triggered "Round_Start"
+L 02/22/2021 - 20:44:16: "Dipkiss<0><UNKNOWN><>" connected, address "120847"
+L 02/22/2021 - 20:44:27: "Dipkiss<0><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:44:28: "Dipkiss<0><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:44:29: Remain RefModels Count 1
+L 02/22/2021 - 20:48:38: ============================================================================
+L 02/22/2021 - 20:48:38: Loading map "01_mboss_new"
+L 02/22/2021 - 20:48:39: Remain RefModels Count 1
+L 02/22/2021 - 20:48:39: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:48:39: Map_LoadModel - maps/01_mboss_new.bsp
+L 02/22/2021 - 20:48:41: World triggered "Round_Start"
+L 02/22/2021 - 20:48:43: "Dipkiss<0><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:48:43: "Dipkiss<0><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:49:03: Remain RefModels Count 1
+L 02/22/2021 - 20:51:57: scaleform_hide_baseui called.
+L 02/22/2021 - 20:52:54: "Dipkiss<0><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 20:52:54: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 20:52:54: Server shutdown.
+L 02/22/2021 - 20:53:14: ============================================================================
+L 02/22/2021 - 20:53:14: Loading map "t01"
+L 02/22/2021 - 20:53:14: Remain RefModels Count 0
+L 02/22/2021 - 20:53:14: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:53:15: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 20:53:22: Remain RefModels Count 2
+L 02/22/2021 - 20:53:23: World triggered "Round_Start"
+L 02/22/2021 - 20:53:23: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 20:53:26: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 20:53:26: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 20:53:30: Remain RefModels Count 26
+L 02/22/2021 - 20:59:36: Remain RefModels Count 32
+L 02/22/2021 - 20:59:37: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 20:59:37: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 20:59:37: Server shutdown.
+L 02/22/2021 - 20:59:39: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 20:59:39: Map_LoadModel - maps/lobby_multiplayer.bsp
+L 02/22/2021 - 20:59:45: Remain RefModels Count 3
+L 02/22/2021 - 21:03:16: Remain RefModels Count 0
+L 02/22/2021 - 21:03:19: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:03:20: Map_LoadModel - maps/01b_new.bsp
+L 02/22/2021 - 21:03:28: Remain RefModels Count 2
+L 02/22/2021 - 21:05:13: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:05:13: Map_LoadModel - maps/01g_new.bsp
+L 02/22/2021 - 21:05:24: Remain RefModels Count 2
+L 02/22/2021 - 21:07:31: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:07:31: Map_LoadModel - maps/01_mboss_new.bsp
+L 02/22/2021 - 21:07:37: Remain RefModels Count 2
+L 02/22/2021 - 21:08:37: scaleform_hide_baseui called.
+L 02/22/2021 - 21:09:24: ============================================================================
+L 02/22/2021 - 21:09:24: Loading map "t01"
+L 02/22/2021 - 21:09:25: Remain RefModels Count 0
+L 02/22/2021 - 21:09:25: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:09:26: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 21:09:33: Remain RefModels Count 2
+L 02/22/2021 - 21:09:33: World triggered "Round_Start"
+L 02/22/2021 - 21:09:33: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 21:09:36: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:09:36: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:09:40: Remain RefModels Count 26
+L 02/22/2021 - 21:28:36: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 21:28:36: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 21:28:37: Server shutdown.
+L 02/22/2021 - 21:28:37: ============================================================================
+L 02/22/2021 - 21:28:37: Loading map "01h_new"
+L 02/22/2021 - 21:28:37: Remain RefModels Count 0
+L 02/22/2021 - 21:28:37: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:28:38: Map_LoadModel - maps/01h_new.bsp
+L 02/22/2021 - 21:28:41: Remain RefModels Count 0
+L 02/22/2021 - 21:28:41: World triggered "Round_Start"
+L 02/22/2021 - 21:28:41: "Dipkiss<1><UNKNOWN><>" connected, address "121493"
+L 02/22/2021 - 21:29:01: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:29:02: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:29:03: Remain RefModels Count 1
+L 02/22/2021 - 21:31:05: ============================================================================
+L 02/22/2021 - 21:31:05: Loading map "01e_new"
+L 02/22/2021 - 21:31:05: Remain RefModels Count 1
+L 02/22/2021 - 21:31:05: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:31:06: Map_LoadModel - maps/01e_new.bsp
+L 02/22/2021 - 21:31:07: World triggered "Round_Start"
+L 02/22/2021 - 21:31:09: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:31:09: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:31:11: Remain RefModels Count 1
+L 02/22/2021 - 21:33:51: scaleform_hide_baseui called.
+L 02/22/2021 - 21:34:37: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 21:34:37: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 21:34:37: Server shutdown.
+L 02/22/2021 - 21:34:44: ============================================================================
+L 02/22/2021 - 21:34:44: Loading map "t01"
+L 02/22/2021 - 21:34:44: Remain RefModels Count 0
+L 02/22/2021 - 21:34:45: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:34:46: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 21:34:52: Remain RefModels Count 2
+L 02/22/2021 - 21:34:52: World triggered "Round_Start"
+L 02/22/2021 - 21:34:53: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 21:34:56: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:34:57: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:35:01: Remain RefModels Count 28
+L 02/22/2021 - 21:39:43: "Dipkiss<1><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 21:39:43: Dropped Dipkiss from server (Disconnect by user.)
+L 02/22/2021 - 21:39:43: Server shutdown.
+L 02/22/2021 - 21:39:43: ============================================================================
+L 02/22/2021 - 21:39:43: Loading map "f01"
+L 02/22/2021 - 21:39:43: Remain RefModels Count 0
+L 02/22/2021 - 21:39:44: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:39:44: Map_LoadModel - maps/f01.bsp
+L 02/22/2021 - 21:39:51: Remain RefModels Count 1
+L 02/22/2021 - 21:39:51: World triggered "Round_Start"
+L 02/22/2021 - 21:39:51: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 21:39:55: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:39:55: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:39:57: Remain RefModels Count 22
+L 02/22/2021 - 21:40:31: "Dipkiss<1><UNKNOWN><Paladin>" disconnected (reason "Disconnect by user.")
+L 02/22/2021 - 21:40:31: Dropped Dipkiss from server (Disconnect by user.)
+L 02/22/2021 - 21:40:31: Server shutdown.
+L 02/22/2021 - 21:40:31: ============================================================================
+L 02/22/2021 - 21:40:31: Loading map "t01"
+L 02/22/2021 - 21:40:31: Remain RefModels Count 0
+L 02/22/2021 - 21:40:31: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:40:32: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 21:40:39: Remain RefModels Count 2
+L 02/22/2021 - 21:40:39: World triggered "Round_Start"
+L 02/22/2021 - 21:40:39: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 21:40:42: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:40:43: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:40:47: Remain RefModels Count 28
+L 02/22/2021 - 21:46:37: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 21:46:37: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 21:46:37: Server shutdown.
+L 02/22/2021 - 21:46:37: ============================================================================
+L 02/22/2021 - 21:46:38: Loading map "02g"
+L 02/22/2021 - 21:46:38: Remain RefModels Count 0
+L 02/22/2021 - 21:46:38: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:46:38: Map_LoadModel - maps/02g.bsp
+L 02/22/2021 - 21:46:41: Remain RefModels Count 0
+L 02/22/2021 - 21:46:41: World triggered "Round_Start"
+L 02/22/2021 - 21:46:41: "Dipkiss<1><UNKNOWN><>" connected, address "122201"
+L 02/22/2021 - 21:46:45: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:46:46: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:46:47: Remain RefModels Count 1
+L 02/22/2021 - 21:49:54: ============================================================================
+L 02/22/2021 - 21:49:54: Loading map "02b"
+L 02/22/2021 - 21:49:54: Remain RefModels Count 1
+L 02/22/2021 - 21:49:55: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:49:55: Map_LoadModel - maps/02b.bsp
+L 02/22/2021 - 21:49:56: World triggered "Round_Start"
+L 02/22/2021 - 21:49:58: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:49:58: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:50:00: Remain RefModels Count 1
+L 02/22/2021 - 21:53:36: scaleform_hide_baseui called.
+L 02/22/2021 - 21:55:36: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 21:55:36: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 21:55:36: Server shutdown.
+L 02/22/2021 - 21:59:12: ============================================================================
+L 02/22/2021 - 21:59:12: Loading map "02d"
+L 02/22/2021 - 21:59:12: Remain RefModels Count 0
+L 02/22/2021 - 21:59:12: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 21:59:12: Map_LoadModel - maps/02d.bsp
+L 02/22/2021 - 21:59:14: Remain RefModels Count 0
+L 02/22/2021 - 21:59:14: World triggered "Round_Start"
+L 02/22/2021 - 21:59:15: "Dipkiss<0><UNKNOWN><>" connected, address "122411"
+L 02/22/2021 - 21:59:17: "Dipkiss<0><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 21:59:18: "Dipkiss<0><UNKNOWN><>" entered the game
+L 02/22/2021 - 21:59:19: Remain RefModels Count 1
+L 02/22/2021 - 22:02:54: ============================================================================
+L 02/22/2021 - 22:02:54: Loading map "02b"
+L 02/22/2021 - 22:02:54: Remain RefModels Count 1
+L 02/22/2021 - 22:02:55: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 22:02:55: Map_LoadModel - maps/02b.bsp
+L 02/22/2021 - 22:02:56: World triggered "Round_Start"
+L 02/22/2021 - 22:02:58: "Dipkiss<0><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 22:02:58: "Dipkiss<0><UNKNOWN><>" entered the game
+L 02/22/2021 - 22:02:59: Remain RefModels Count 1
+L 02/22/2021 - 22:06:42: scaleform_hide_baseui called.
+L 02/22/2021 - 22:07:46: "Dipkiss<0><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 22:07:46: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 22:07:46: Server shutdown.
+L 02/22/2021 - 22:09:45: ============================================================================
+L 02/22/2021 - 22:09:45: Loading map "t01"
+L 02/22/2021 - 22:09:45: Remain RefModels Count 0
+L 02/22/2021 - 22:09:45: Map_LoadModel::SetWorldModel
+L 02/22/2021 - 22:09:47: Map_LoadModel - maps/t01.bsp
+L 02/22/2021 - 22:09:53: Remain RefModels Count 2
+L 02/22/2021 - 22:09:54: World triggered "Round_Start"
+L 02/22/2021 - 22:09:54: "Dipkiss<1><UNKNOWN><>" connected, address "0"
+L 02/22/2021 - 22:09:57: "Dipkiss<1><UNKNOWN><Unassigned>" joined team "Paladin"
+L 02/22/2021 - 22:09:57: "Dipkiss<1><UNKNOWN><>" entered the game
+L 02/22/2021 - 22:10:01: Remain RefModels Count 28
+L 02/22/2021 - 22:13:46: "Dipkiss<1><UNKNOWN><>" disconnected (reason "Server shutting down")
+L 02/22/2021 - 22:13:46: Dropped Dipkiss from server (Server shutting down)
+L 02/22/2021 - 22:13:46: Server shutdown.

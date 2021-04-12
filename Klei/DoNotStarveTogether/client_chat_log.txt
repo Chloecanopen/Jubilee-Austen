@@ -1,0 +1,5 @@
+[00:10:12]: [Death Announcement] BOB was killed by Darkness. He became a spooky ghost!
+[00:10:14]: [Death Announcement] chloedenstaedt was killed by Darkness. He became a spooky ghost!
+[01:00:43]: [Skin Announcement] BOB feet_wolfgang_nature
+[01:05:13]: [Death Announcement] chloedenstaedt was killed by Starvation. He became a spooky ghost!
+[01:23:36]: [Death Announcement] BOB was killed by Spider. She became a spooky ghost!
